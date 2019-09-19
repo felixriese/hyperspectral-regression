@@ -1,3 +1,7 @@
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3450676.svg
+    :target: https://doi.org/10.5281/zenodo.3450676
+    :alt: DOI
+
 .. image:: https://img.shields.io/github/license/felixriese/hyperspectral-regression
     :target: LICENSE
     :alt: License: BSD-3-Clause
@@ -10,14 +14,14 @@
 ..     :target: https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=felixriese/hyperspectral-regression&amp;utm_campaign=Badge_Grade
 ..     :alt: Codacy Status
 
-.. .. image:: https://mybinder.org/badge_logo.svg
-..     :target: https://mybinder.org/v2/gh/felixriese/hyperspectral-regression/master?filepath=notebooks
-..     :alt: MyBinder
+.. image:: https://mybinder.org/badge_logo.svg
+    :target: https://mybinder.org/v2/gh/felixriese/hyperspectral-regression/master?filepath=notebooks
+    :alt: MyBinder
 
-Hyperspectral Regression
+Hyperspectral Regression: Code Examples
 ===============================================
 
-This repository consists of additional material and exemplary implementations for the TODO book chapter.
+This repository consists of additional material and exemplary implementations for a coming book chapter.
 
 The code in this repository is provided via notebooks. The notebooks are structured as follows:
 
@@ -68,12 +72,21 @@ How to use this repository?
 Citation
 --------
 
-
-
 **Paper:**
 
 coming soon
 
 **Code:**
 
-coming soon
+Felix M. Riese and Sina Keller, "Hyperspectral Regression: Code Examples", Zenodo, `10.5281/zenodo.3450676 <http://doi.org/10.5281/zenodo.3450676>`_, 2019.
+
+.. code:: bibtex
+
+    @misc{riese2019hyperspectral,
+        author = {Riese, Felix~M. and Keller, Sina},
+        title = {{Hyperspectral Regression: Code Examples}},
+        year = {2019},
+        DOI = {10.5281/zenodo.3450676},
+        publisher = {Zenodo},
+        howpublished = {\href{https://doi.org/10.5281/zenodo.3450676}{doi.org/10.5281/zenodo.3450676}}
+    }
