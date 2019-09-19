@@ -9,3 +9,4 @@ notebooks/results/*
 .pytest_cache
 notebooks/tmp/
 notebooks/7_AutoML.ipynb
+.coverage
