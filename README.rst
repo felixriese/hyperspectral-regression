@@ -2,9 +2,6 @@
     :target: LICENSE
     :alt: License: BSD-3-Clause
 
-.. image:: https://img.shields.io/badge/Python-3.6%2B-blue
-    :alt: Python Version
-
 .. image:: https://mybinder.org/badge_logo.svg
     :target: https://mybinder.org/v2/gh/felixriese/hyperspectral-regression/master?filepath=notebooks
     :alt: MyBinder
