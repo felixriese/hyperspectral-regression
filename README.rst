@@ -2,6 +2,13 @@
     :target: LICENSE
     :alt: License: BSD-3-Clause
 
+.. image:: https://img.shields.io/badge/Python-3.6%2B-blue
+    :alt: Python Version
+
+.. image:: https://mybinder.org/badge_logo.svg
+    :target: https://mybinder.org/v2/gh/felixriese/hyperspectral-regression/master?filepath=notebooks
+    :alt: MyBinder
+
 .. image:: https://travis-ci.org/felixriese/hyperspectral-regression.svg?branch=master
     :target: https://travis-ci.org/felixriese/hyperspectral-regression
     :alt: Travis.CI Status
@@ -10,13 +17,9 @@
     :target: https://codecov.io/gh/felixriese/hyperspectral-regression
     :alt: Codecov
 
-.. .. image:: https://api.codacy.com/project/badge/Grade/d7257bd78bf348cc8b4197dd99c6c8bb
-..     :target: https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=felixriese/hyperspectral-regression&amp;utm_campaign=Badge_Grade
-..     :alt: Codacy Status
-
-.. image:: https://mybinder.org/badge_logo.svg
-    :target: https://mybinder.org/v2/gh/felixriese/hyperspectral-regression/master?filepath=notebooks
-    :alt: MyBinder
+.. image:: https://api.codacy.com/project/badge/Grade/6808eea2d5984c7d8364f7659b40f9ea
+    :target: https://www.codacy.com/manual/felixriese/hyperspectral-regression?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=felixriese/hyperspectral-regression&amp;utm_campaign=Badge_Grade
+    :alt: Codacy Status
 
 Hyperspectral Regression: Code Examples
 ===============================================
