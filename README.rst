@@ -1,7 +1,3 @@
-.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3450676.svg
-    :target: https://doi.org/10.5281/zenodo.3450676
-    :alt: DOI
-
 .. image:: https://img.shields.io/github/license/felixriese/hyperspectral-regression
     :target: LICENSE
     :alt: License: BSD-3-Clause
@@ -9,6 +5,10 @@
 .. image:: https://travis-ci.org/felixriese/hyperspectral-regression.svg?branch=master
     :target: https://travis-ci.org/felixriese/hyperspectral-regression
     :alt: Travis.CI Status
+
+.. image:: https://codecov.io/gh/felixriese/hyperspectral-regression/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/felixriese/hyperspectral-regression
+    :alt: Codecov
 
 .. .. image:: https://api.codacy.com/project/badge/Grade/d7257bd78bf348cc8b4197dd99c6c8bb
 ..     :target: https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=felixriese/hyperspectral-regression&amp;utm_campaign=Badge_Grade
@@ -79,6 +79,10 @@ coming soon
 **Code:**
 
 Felix M. Riese and Sina Keller, "Hyperspectral Regression: Code Examples", Zenodo, `10.5281/zenodo.3450676 <http://doi.org/10.5281/zenodo.3450676>`_, 2019.
+
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3450676.svg
+    :target: https://doi.org/10.5281/zenodo.3450676
+    :alt: DOI
 
 .. code:: bibtex
 

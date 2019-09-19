@@ -13,12 +13,6 @@ def get_xy():
 
     # get features (= hyperspectral bands):
     features = [col for col in df.columns if col.isdigit()]
-    # for col in df.columns:
-    #     try:
-    #         int(col)
-    #     except Exception:
-    #         continue
-    #     features.append(col)
 
     X = df[features].values
     y = df["soil_moisture"].values
@@ -85,14 +79,6 @@ def write_results_to_latex_table(results, filename="results"):
         f.write("\t\label{tab:supervised_results}\n")
         f.write("\end{table}\n")
         f.write("\end{document}\n")
-    # proc = subprocess.Popen(['pdflatex', '-output-directory', 'results',
-    #                          "results/"+filename+".tex"])
-    # proc.communicate()
-    # try:
-    #     os.remove("results/"+filename+".log")
-    #     os.remove("results/"+filename+".aux")
-    # except Exception:
-    #     print("Warning: Not able to remove .log and .aux files!")
 
 
 def plot_regression_results(truth, pred, model_name):
