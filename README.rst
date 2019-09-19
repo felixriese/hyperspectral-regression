@@ -2,13 +2,17 @@
     :target: LICENSE
     :alt: License: BSD-3-Clause
 
-.. image:: https://travis-ci.com/felixriese/hyperspectral-regression.svg?token=RSdz3p7FuyrLzy7KTHnZ&branch=master
-    :target: https://travis-ci.com/felixriese/hyperspectral-regression
+.. image:: https://travis-ci.org/felixriese/hyperspectral-regression.svg?branch=master
+    :target: https://travis-ci.org/felixriese/hyperspectral-regression
     :alt: Travis.CI Status
 
-.. image:: https://api.codacy.com/project/badge/Grade/d7257bd78bf348cc8b4197dd99c6c8bb
-    :target: https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=felixriese/hyperspectral-regression&amp;utm_campaign=Badge_Grade
-    :alt: Codacy Status
+.. .. image:: https://api.codacy.com/project/badge/Grade/d7257bd78bf348cc8b4197dd99c6c8bb
+..     :target: https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=felixriese/hyperspectral-regression&amp;utm_campaign=Badge_Grade
+..     :alt: Codacy Status
+
+.. .. image:: https://mybinder.org/badge_logo.svg
+..     :target: https://mybinder.org/v2/gh/felixriese/hyperspectral-regression/master?filepath=notebooks
+..     :alt: MyBinder
 
 Hyperspectral Regression
 ===============================================
