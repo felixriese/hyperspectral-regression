@@ -1,0 +1,18 @@
+tensorflow
+keras>=2.2
+notebook>=6.0.0
+susi
+pandas
+matplotlib
+seaborn
+modAL
+bayesian-optimization
+umap-learn>=0.3.10
+tqdm
+patchify
+
+# for testing
+pytest>=5.1.1
+pytest-cov
+codecov
+nbval>=0.9.2

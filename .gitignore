@@ -1,0 +1,11 @@
+.vscode
+.DS_Store
+.ipynb_checkpoints
+__pycache__
+notebooks/plots/*
+!notebooks/plots/emptyfileforgit.txt
+notebooks/results/*
+!notebooks/results/emptyfileforgit.txt
+.pytest_cache
+notebooks/tmp/
+notebooks/7_AutoML.ipynb
