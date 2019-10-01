@@ -1,4 +1,4 @@
-tensorflow
+tensorflow==1.14.0
 keras>=2.2
 notebook>=6.0.0
 susi
