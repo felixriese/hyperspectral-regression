@@ -110,5 +110,5 @@ def plot_regression_results(truth, pred, model_name):
         tick.label.set_visible(False)
     for tick in ax.yaxis.get_major_ticks():
         tick.label.set_fontsize(fontsize)
-    plt.savefig("plots/truthestimation_"+model_name.replace(" ", "").lower()+".pdf",
-                bbox_inches="tight")
+    plt.savefig("plots/truthestimation_"+model_name.replace(
+        " ", "").lower()+".pdf", bbox_inches="tight")
