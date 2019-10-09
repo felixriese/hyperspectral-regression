@@ -1,5 +1,4 @@
-tensorflow==1.14.0
-keras>=2.2
+tensorflow>=2.0.0
 notebook>=6.0.0
 susi
 pandas
@@ -15,4 +14,4 @@ patchify
 pytest>=5.1.1
 pytest-cov
 codecov
-nbval>=0.9.2
+nbval>=0.9.3
