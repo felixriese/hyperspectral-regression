@@ -1,3 +1,4 @@
+"""Package with helper functions."""
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -5,8 +6,10 @@ import matplotlib.pyplot as plt
 
 
 def get_xy():
+    """Download and format the data."""
     # load dataframe
-    path = "https://raw.githubusercontent.com/felixriese/hyperspectral-soilmoisture-dataset/master/soilmoisture_dataset.csv"
+    path = ("https://raw.githubusercontent.com/felixriese/hyperspectral"
+            "-soilmoisture-dataset/master/soilmoisture_dataset.csv")
     df = pd.read_csv(path, index_col=0)
 
     # get features (= hyperspectral bands):
@@ -19,7 +22,14 @@ def get_xy():
 
 
 def get_xy_split(missing_rate=0.0):
+    """Split data.
 
+    Parameters
+    ----------
+    missing_rate : float
+        Percentage of missing data for semi-supervised learning.
+
+    """
     X, y = get_xy()
 
     X_train, X_test, y_train, y_test = train_test_split(
@@ -39,6 +49,19 @@ def get_xy_split(missing_rate=0.0):
 
 
 def get_xy_shifted(cut=35):
+    """Generate dataset shift in data.
+
+    Parameters
+    ----------
+    cut : int
+        Cut at which the target variable is shifted.
+
+    Returns
+    -------
+    X_train, X_test, y_test, y_train : np.arrays
+        Training and test datasets with input data `X` and target variable `y`.
+
+    """
     X, y = get_xy()
 
     mask = y < cut
@@ -80,6 +103,18 @@ def write_results_to_latex_table(results, filename="results"):
 
 
 def plot_regression_results(truth, pred, model_name):
+    """Plot regression results.
+
+    Parameters
+    ----------
+    truth : np.array
+        Array of true values y.
+    pred : np.array
+        Array of predicted values y_pred.
+    model_name : str
+        Name of the model.
+
+    """
     _, ax = plt.subplots(1, 1, figsize=(5, 5))
     fontsize = 15
 
