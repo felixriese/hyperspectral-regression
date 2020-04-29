@@ -47,7 +47,7 @@ Description
     see `Citation`_
 
 :Paper:
-    coming soon
+    `Riese and Keller (2020) <https://doi.org/10.1007/978-3-030-38617-7_7>`_
 
 :Requirements:
     Python 3 with these `packages <requirements.txt>`_
@@ -68,17 +68,44 @@ How to use this repository?
 
 4. Open the notebook folder in this repository in the Jupyter browser and select the desired notebook.
 
+---
 
 Citation
 --------
 
+The bibtex file including both references is available in `bibliography.bib
+<bibliography.bib>`_.
+
 **Paper:**
 
-coming soon
+Felix M. Riese and Sina Keller, "Supervised, Semi-Supervised, and Unsupervised
+Learning for Hyperspectral Regression", in *Hyperspectral Image Analysis:
+Advances in Machine Learning and Signal Processing*, Saurabh Prasad and Jocelyn
+Chanussot, Eds. Cham: Springer International Publishing, 2020, ch. 7,
+pp. 187–232.
+
+.. code:: bibtex
+
+    @incollection{riese2020supervised,
+        author = {Riese, Felix~M. and Keller, Sina},
+        title ={{Supervised, Semi-Supervised, and Unsupervised Learning for
+                Hyperspectral Regression}},
+        booktitle = {{Hyperspectral Image Analysis: Advances in Machine
+                     Learning and Signal Processing}},
+        editor = {Prasad, Saurabh and Chanussot, Jocelyn},
+        year = {2020},
+        publisher = {Springer International Publishing},
+        address = {Cham},
+        chapter = {7},
+        pages = {187--232},
+        doi = {10.1007/978-3-030-38617-7_7},
+    }
 
 **Code:**
 
-Felix M. Riese and Sina Keller, "Hyperspectral Regression: Code Examples", Zenodo, `10.5281/zenodo.3450676 <http://doi.org/10.5281/zenodo.3450676>`_, 2019.
+Felix M. Riese and Sina Keller, "Hyperspectral Regression: Code Examples",
+Zenodo, `10.5281/zenodo.3450676 <http://doi.org/10.5281/zenodo.3450676>`_,
+2019.
 
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3450676.svg
     :target: https://doi.org/10.5281/zenodo.3450676
