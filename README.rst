@@ -21,7 +21,7 @@
 Hyperspectral Regression: Code Examples
 ===============================================
 
-This repository consists of additional material and exemplary implementations for a coming book chapter.
+This repository consists of additional material and exemplary implementations for our coming book chapter.
 
 The code in this repository is provided via notebooks. The notebooks are structured as follows:
 
