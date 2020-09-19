@@ -6,8 +6,8 @@
     :target: https://mybinder.org/v2/gh/felixriese/hyperspectral-regression/master?filepath=notebooks
     :alt: MyBinder
 
-.. image:: https://travis-ci.org/felixriese/hyperspectral-regression.svg?branch=master
-    :target: https://travis-ci.org/felixriese/hyperspectral-regression
+.. image:: https://travis-ci.com/felixriese/hyperspectral-regression.svg?branch=master
+    :target: https://travis-ci.com/felixriese/hyperspectral-regression
     :alt: Travis.CI Status
 
 .. image:: https://codecov.io/gh/felixriese/hyperspectral-regression/branch/master/graph/badge.svg
