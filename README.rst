@@ -82,7 +82,7 @@ Felix M. Riese and Sina Keller, "Supervised, Semi-Supervised, and Unsupervised
 Learning for Hyperspectral Regression", in *Hyperspectral Image Analysis:
 Advances in Machine Learning and Signal Processing*, Saurabh Prasad and Jocelyn
 Chanussot, Eds. Cham: Springer International Publishing, 2020, ch. 7,
-pp. 187–232.
+pp. 187–232, `doi:10.1007/978-3-030-38617-7_7 <https://doi.org/10.1007/978-3-030-38617-7_7>`_.
 
 .. code:: bibtex
 
@@ -104,7 +104,7 @@ pp. 187–232.
 **Code:**
 
 Felix M. Riese and Sina Keller, "Hyperspectral Regression: Code Examples",
-Zenodo, `10.5281/zenodo.3450676 <http://doi.org/10.5281/zenodo.3450676>`_,
+Zenodo, `doi:10.5281/zenodo.3450676 <http://doi.org/10.5281/zenodo.3450676>`_,
 2019.
 
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3450676.svg
