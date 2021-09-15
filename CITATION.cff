@@ -20,7 +20,7 @@ preferred-citation:
     - family-names: Keller
       given-names: Sina
   title: "Supervised, Semi-Supervised, and Unsupervised Learning for Hyperspectral Regression"
-  type: article
+  type: book
   year: 2020
   doi: "10.1007/978-3-030-38617-7_7"
   publisher:
