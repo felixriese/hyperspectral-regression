@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article from preferred-citation and the software itself."
+authors:
+  - family-names: Riese
+    given-names: Felix M.
+    orcid: https://orcid.org/0000-0003-0596-9585
+  - family-names: Keller
+    given-names: Sina
+    orcid: https://orcid.org/0000-0002-7710-5316
+title: "Hyperspectral Regression: Code Examples"
+version: 1.0.0
+doi: "10.5281/zenodo.3450676"
+date-released: 2019-09-19
+repository-code: https://github.com/felixriese/hyperspectral-regression
+license: BSD-3-Clause
+preferred-citation:
+  authors:
+    - family-names: Riese
+      given-names: Felix M.
+    - family-names: Keller
+      given-names: Sina
+  title: "Supervised, Semi-Supervised, and Unsupervised Learning for Hyperspectral Regression"
+  type: book
+  year: 2020
+  doi: "10.1007/978-3-030-38617-7_7"
+  publisher:
+    - name: "Springer International Publishing"
+    - Publications city: "Cham"
+  collection-title: "Hyperspectral Image Analysis: Advances in Machine Learning and Signal Processing"
+  start: 187
+  end: 232
