@@ -1,4 +1,4 @@
-tensorflow>=2.2.0
+tensorflow>=2.5.0
 notebook>=6.0.0
 jupyter
 ipywidgets
@@ -11,6 +11,7 @@ bayesian-optimization
 umap-learn>=0.3.10
 tqdm
 patchify
+scipy<1.8.0
 
 # for testing
 pytest>=5.1.1
