@@ -11,7 +11,7 @@ bayesian-optimization
 umap-learn>=0.3.10
 tqdm
 patchify
-scipy<1.8.0
+scipy==1.11.1
 
 # for testing
 pytest>=5.1.1
