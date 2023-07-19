@@ -6,7 +6,7 @@ susi
 pandas
 matplotlib
 seaborn
-modAL
+modAL-python==0.4.2.1
 bayesian-optimization
 umap-learn>=0.3.10
 tqdm
